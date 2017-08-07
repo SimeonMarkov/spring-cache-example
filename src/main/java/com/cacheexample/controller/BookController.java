@@ -3,6 +3,7 @@ package com.cacheexample.controller;
 import com.cacheexample.exception.CustomException;
 import com.cacheexample.model.Book;
 import com.cacheexample.repository.BookRepository;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,7 +25,7 @@ public class BookController {
     @GetMapping("/{isbn}")
     public Book getISBN(@PathVariable("isbn") String isbn) throws CustomException {
         System.out.println("Getting an ISBN...");
-        if(!isbn.contains("isbn")) {
+        if(!StringUtils.isNumeric(isbn)) {
             throw new CustomException("exception thrown here");
         }
         return bookRepository.getByIsbn(isbn);
