@@ -13,6 +13,10 @@ import org.springframework.cache.annotation.EnableCaching;
 @EnableCaching
 public class SpringCacheApplication {
 
+    /**
+     * some comment
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(SpringCacheApplication.class, args);
     }
