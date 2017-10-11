@@ -52,8 +52,8 @@
       <file leaf-file-name="SpringCacheApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cacheexample/SpringCacheApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="258">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -478,10 +478,18 @@
       <updated>1499842933031</updated>
       <workItem from="1507750507698" duration="1381000" />
     </task>
+    <task id="LOCAL-00001" summary="trying to trigger jenkins build again">
+      <created>1507753489641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507753489641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1471000" />
+    <option name="totallyTimeSpent" value="2118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -551,7 +559,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trying to trigger jenkins build" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to trigger jenkins build" />
+    <MESSAGE value="trying to trigger jenkins build again" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to trigger jenkins build again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,7 +713,7 @@
         <state relative-caret-position="255">
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -849,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cacheexample/SpringCacheApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="258">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
